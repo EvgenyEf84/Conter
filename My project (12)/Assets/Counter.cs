@@ -25,7 +25,7 @@ public class Counter : MonoBehaviour
         }
     }
 
-    public IEnumerator CountUp()
+    private IEnumerator CountUp()
     {
         var wait = new WaitForSeconds(_delay);
 
